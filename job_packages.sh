@@ -10,3 +10,4 @@ mkdir packages
 export PYTHONPATH=$PWD/packages
 
 python3 -m pip install --target=$PWD/packages mujoco gym
+tar -czf packages.tar.gz packages/
