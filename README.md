@@ -1,4 +1,4 @@
-# f
+# Mujoco on CHTC 
 
 This repo simulates random actions in all environments included in `gym` (no extra environments like atari).
 It is small example of MuJoCo working on CHTC.
