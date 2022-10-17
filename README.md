@@ -27,7 +27,7 @@ cd chtc
 mkdir output
 condor_submit job.sub
 ```
-Output logs (`job.err`, `job.out`, `job.log`) are written to the `results` directory. 
+Output logs (`job.err`, `job.out`, `job.log`) are written to the `output` directory. 
 Upon success, `job.out` will contain (modulo randomness):
 
 ```commandline
@@ -45,8 +45,8 @@ and `job.err` will be empty.
 
 ### Getting Dependencies
 
-The dependencies in `packages.tar.gz` were obtained as follows:
-
+The dependencies are already included in the `packages.tar.gz` file. 
+To obtain this file from scratch:
 ```commandline
 git clone git@github.com:NicholasCorrado/CHTC.git
 cd chtc
