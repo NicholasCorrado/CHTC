@@ -40,5 +40,5 @@ if __name__ == "__main__":
         env = gym.make(args.env_id)
         simulate(env, args.num_episodes)
         print()
-
+    print('Successfully tested all environments')
 
