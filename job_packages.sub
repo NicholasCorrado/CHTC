@@ -1,12 +1,11 @@
 # Python build file
 
 universe = vanilla
-log = interactive.log
 
-initial_dir=packages
-executable = job_package.sh
-output = job_pacakge.out
-error = job_pacakge.err
+executable = job_packages.sh
+log = output/job_packages.log
+output = output/job_packages.out
+error = output/job_packages.err
 
 # Choose a version of Python from the tables above
 # If building on CentOS 7 (To be Phased Out)
