@@ -1,0 +1,35 @@
+Collecting mujoco
+  Using cached mujoco-2.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.8 MB)
+Collecting gym
+  Downloading gym-0.26.2.tar.gz (721 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 721.7/721.7 KB 25.5 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting glfw
+  Using cached glfw-2.5.5-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-manylinux2014_x86_64.whl (207 kB)
+Collecting pyopengl
+  Using cached PyOpenGL-3.1.6-py3-none-any.whl (2.4 MB)
+Collecting absl-py
+  Using cached absl_py-1.3.0-py3-none-any.whl (124 kB)
+Collecting numpy
+  Using cached numpy-1.23.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+Collecting cloudpickle>=1.2.0
+  Downloading cloudpickle-2.2.0-py3-none-any.whl (25 kB)
+Collecting gym-notices>=0.0.4
+  Downloading gym_notices-0.0.8-py3-none-any.whl (3.0 kB)
+Collecting importlib-metadata>=4.8.0
+  Using cached importlib_metadata-5.0.0-py3-none-any.whl (21 kB)
+Collecting zipp>=0.5
+  Using cached zipp-3.9.0-py3-none-any.whl (5.8 kB)
+Building wheels for collected packages: gym
+  Building wheel for gym (pyproject.toml): started
+  Building wheel for gym (pyproject.toml): finished with status 'done'
+  Created wheel for gym: filename=gym-0.26.2-py3-none-any.whl size=827633 sha256=dfdf1ea1f1513f30158e66e7fa849e90962f31deb650c1756fce870978f6f6c0
+  Stored in directory: /home/ncorrado/.cache/pip/wheels/af/2b/30/5e78b8b9599f2a2286a582b8da80594f654bf0e18d825a4405
+Successfully built gym
+Installing collected packages: pyopengl, gym-notices, glfw, zipp, numpy, cloudpickle, absl-py, mujoco, importlib-metadata, gym
+Successfully installed absl-py-1.3.0 cloudpickle-2.2.0 glfw-2.5.5 gym-0.26.2 gym-notices-0.0.8 importlib-metadata-5.0.0 mujoco-2.2.2 numpy-1.23.4 pyopengl-3.1.6 zipp-3.9.0

@@ -11,7 +11,5 @@ export PATH=$PWD/python/bin:$PATH
 export PYTHONPATH=$PWD/packages
 export HOME=$PWD
 
-cd CHTC/chtc
-
 # run your script
 python3 simulate.py
