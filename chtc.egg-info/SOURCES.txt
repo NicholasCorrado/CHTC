@@ -1,7 +1,0 @@
-setup.py
-chtc/simulate.py
-chtc.egg-info/PKG-INFO
-chtc.egg-info/SOURCES.txt
-chtc.egg-info/dependency_links.txt
-chtc.egg-info/requires.txt
-chtc.egg-info/top_level.txt
