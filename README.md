@@ -1,6 +1,7 @@
 # f
 
 This repo simulates random actions in all environments included in `gym` (no extra environments like atari).
+It is small example of MuJoCo working on CHTC.
 
 ## Running Locally
 
@@ -19,11 +20,11 @@ python simulate.py
 
 See [here](https://chtc.cs.wisc.edu/uw-research-computing/python-jobs.html) for a thorough overview of how to setup jobs with CHTC.
 
-### 
-
+Login to your CHTC submit node, and then:
 ```commandline
 git clone git@github.com:NicholasCorrado/CHTC.git
 cd chtc
+mkdir output
 condor_submit job.sub
 ```
 Output logs (`job.err`, `job.out`, `job.log`) are written to the `results` directory. 
@@ -48,21 +49,8 @@ The dependencies in `packages.tar.gz` were obtained as follows:
 
 ```commandline
 git clone git@github.com:NicholasCorrado/CHTC.git
-cd chtc/packages
+cd chtc
+mkdir output
 condor_submit job_packages.sub
 ```
-Upon completion, a `packages.tar.gz` tarball  will be outputted to the `packages` directory.
-
-`packages.tar.gz`: contains all dependencies. 
-See [here](https://chtc.cs.wisc.edu/uw-research-computing/python-jobs.html) 
-for an overview on how to get a tarball of your project dependencies.
-
-```commandline
-condor_submit job.sub
-```
-```commandline
-conda create -n chtc python=3.9
-conda activate chtc
-git clone git@github.com:NicholasCorrado/CHTC.git
-pip install -e CHTC
-```
+Upon completion, a `packages.tar.gz` tarball will be outputted.
