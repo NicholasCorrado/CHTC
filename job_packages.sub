@@ -3,6 +3,11 @@
 universe = vanilla
 log = interactive.log
 
+initial_dir=packages
+executable = job_package.sh
+output = job_pacakge.out
+error = job_pacakge.err
+
 # Choose a version of Python from the tables above
 # If building on CentOS 7 (To be Phased Out)
 # transfer_input_files = http://proxy.chtc.wisc.edu/SQUID/chtc/python##.tar.gz
